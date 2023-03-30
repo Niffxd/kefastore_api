@@ -1,0 +1,30 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/index.js",
+    "start": "node ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "pg": "^8.10.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.29.3"
+  },
+  "devDependencies": {
+    "eslint-config-semistandard": "^17.0.0",
+    "nodemon": "^2.0.21"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-semistandard"
+  }
+}
